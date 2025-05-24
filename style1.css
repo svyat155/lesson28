@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;1,500&display=swap');
+*{
+    font-family: "Noto Sans", sans-serif;
+}
+
+
+.container { display: flex; flex-wrap: wrap; }
+.column { flex: 1; padding: 20px; }
+
+
+@media (max-width: 768px) {
+  .column { flex: 100%; }
+}
+
+
+@media (max-width: 480px) {
+  .container { flex-direction: column; }
+  .column { padding: 10px; }
+}
+
+.A1{
+    background-color: rgb(134, 236, 66);
+    border-radius: 16px;
+    padding-left: 20px;
+    width: auto;
+    height: auto;
+}
+
+.A11{
+    background-color: rgb(161, 63, 63);
+    border-radius: 16px;
+    width: auto;
+    height: auto;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+}
+
+.C1{
+    color: rgb(255, 192, 74);
+}
+
+body{
+    background-image: url(03_572fef682d5c641345f21_1920xH\ \(1\).png);
+}
+
+.wikitable{
+    color: #c1c1c1;
+    background-color: #393939;
+    border-color: #888;
+    margin: 1em 0;
+    border: 1px solid var(--border-color-base, #a2a9b1);
+    border-collapse: collapse;
+}
+
+.img1{
+    text-align: center;
+}
+
+footer{
+    background-color: #8f4747;
+    color: #cecece;
+    border-radius: 16px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.pexer{
+    color: #94e439;
+    background-color: #a8a8a8;
+    border-radius: 16px;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 120px;
+}
+
+a {
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    color: #f2ff3c;
+}
+
+.logwiki{
+    background-color: #c7c7c78e;
+    border-radius: 16px;
+    width: 160px;
+}
